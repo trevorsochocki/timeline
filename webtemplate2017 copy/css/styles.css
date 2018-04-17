@@ -1,0 +1,66 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+#right-scroll {
+   float: right;
+   cursor: pointer;
+}
+
+#timeline {
+   height: 400px;
+   width: 100%;
+   overflow-x: scroll;
+   overflow-y: hidden;
+}
+
+#container {
+   width: max-content;
+}
+
+.item {
+   float: left;
+   display: inline-block;
+   max-width: 300px;
+/*   height: 400px;
+*/ margin-right: 20px;
+   padding: 10px;
+   background-color: #eee;
+}
+
+.date {
+   background: #333;
+   color: white;
+   font-size: 20px;
+   padding: 5px 50px 5px 10px;
+   display: inline-block;
+   margin: 0;
+   margin-left: -10px;
+}
+
+#item img {
+   display: block;
+   margin: 0 auto
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
